@@ -1,4 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: linear-gradient(to right, #00008b, #0000cd, #0000ff);
-    background-repeat: repeat;
 }
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: +5;
+    padding-top: 40px;
+    color: #fff;
+    padding-left: 160px;
+}
+
+.h {
+    padding-bottom: 40px;
+}
+
+img {
+    transform: scale(0.7);
+    transition: all .3s ease;
+}
+
+img:active {
+    transform: scale(0.65);
+}
+
